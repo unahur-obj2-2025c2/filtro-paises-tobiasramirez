@@ -45,7 +45,7 @@ public class Pais {
         return subRegion;
     }
 
-    public Long getPoblacion() {
+    public Integer getPoblacion() {
         return poblacion;
     }
 
@@ -64,7 +64,12 @@ public class Pais {
     @Override
     public String toString() {
         return "Pais [nombre=" + nombre + ", capital=" + capital + ", region=" + region + ", subRegion=" + subRegion
-                + ", poblacion=" + poblacion + ", idiomas=" + idiomas + ", esIsla()=" + esIsla() + "]";
+                + ", poblacion=" + poblacion + ", idiomas=" + idiomas + ", limites=" + limites + ", area=" + area
+                + ", esIsla()=" + esIsla() + ", getNombre()=" + getNombre() + ", getCapital()=" + getCapital()
+                + ", getRegion()=" + getRegion() + ", getSubRegion()=" + getSubRegion() + ", getPoblacion()="
+                + getPoblacion() + ", getIdiomas()=" + getIdiomas() + ", getArea()=" + getArea() + ", getLimites()="
+                + getLimites() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+                + super.toString() + "]";
     }
 
     
